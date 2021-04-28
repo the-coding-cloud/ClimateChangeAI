@@ -3,10 +3,10 @@ from training.linear_regression import make_linear_regression_model
 from sklearn.metrics import mean_absolute_error
 
 if __name__ == '__main__':
-    X_train = read_dataset("../preprocessing/dataset/X_train.csv")
-    X_test = read_dataset("../preprocessing/dataset/X_test.csv")
-    Y_train = read_dataset("../preprocessing/dataset/Y_train.csv")
-    Y_test = read_dataset("../preprocessing/dataset/Y_test.csv")
+    X_train = read_dataset("../preprocessing/dataset/X_train2.csv")
+    X_test = read_dataset("../preprocessing/dataset/X_test2.csv")
+    Y_train = read_dataset("../preprocessing/dataset/Y_train2.csv")
+    Y_test = read_dataset("../preprocessing/dataset/Y_test2.csv")
 
     pred_baseline = [Y_train.mean()] * len(Y_train)
 
