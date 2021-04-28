@@ -2,6 +2,7 @@ from preprocessing.preprocess_dataset_global_temperatures import prepare_dataset
     separate_target_features_global_temperatures, split_dataset_global_temperatures
 from utils.utils import read_dataset
 
+
 if __name__ == '__main__':
     dataset = read_dataset('./dataset/GlobalTemperatures.csv')
     print(dataset.shape)
